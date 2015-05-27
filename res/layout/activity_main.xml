@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical" >
+
+<!--     <include layout="@layout/main_head" /> -->
+
+    <com.viewpagerindicator.TabPageIndicator
+        android:id="@+id/id_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ADD8E6" >
+    </com.viewpagerindicator.TabPageIndicator>
+    <!-- android:background="@color/transparentblue" > -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
